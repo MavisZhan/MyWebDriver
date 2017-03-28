@@ -19,7 +19,7 @@ public class TestGrid1 {
 	}
     
 	@Test
-	public void testCase() throws MalformedURLException{
+	public void testGrid1() throws MalformedURLException{
 		WebDriver driver = new RemoteWebDriver(new URL(
 				"http://127.0.0.1:4444/wd/hub"), DesiredCapabilities.chrome());
 
