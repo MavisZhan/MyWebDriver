@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1" paralled="tests" thread-count="4">
+    <test name="test1">
+        <parameter name="browser" value="ff">
+            
+        </parameter>
+        <parameter name="nodeUrl" value="http://127.0.0.1:5555">
+            
+        </parameter>
+        <classes>
+            <class name="com.jase.test5.TestGrid4">
+                
+            </class>
+        </classes>
+    </test>
+    
+        <test name="test2">
+        <parameter name="browser" value="chrome">
+            
+        </parameter>
+        <parameter name="nodeUrl" value="http://127.0.0.1:6666">
+            
+        </parameter>
+         <classes>
+            <class name="com.jase.test5.TestGrid4">
+                
+            </class>
+        </classes>
+    </test>
+    
+      
+    <test name="test3">
+    <classes>
+    <class name="com.jase.test5.BaiduTest"></class>
+    </classes>    
+    </test>
+    
+    <test name="test4">
+    <classes>
+    <class name="com.jase.test5.TestGrid1"></class>
+    </classes>    
+    </test>
+
+    
+</suite>
