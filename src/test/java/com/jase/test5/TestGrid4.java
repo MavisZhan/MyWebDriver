@@ -34,8 +34,9 @@ public class TestGrid4 {
 			//由于Chrome不支持强制加插件，需要这样实现，这个插件是用于截图的
 			options=new ChromeOptions();
 			options.setExperimentalOption("forceDevToolsScreenshot", true);
-			browserDriver.setCapability(ChromeOptions.CAPABILITY, options);
 			browserDriver=DesiredCapabilities.chrome();
+			browserDriver.setCapability(ChromeOptions.CAPABILITY, options);
+			
 		}else if(browser.equals("ff")){
 			browserDriver=DesiredCapabilities.firefox();
 		}else{
